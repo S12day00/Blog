@@ -25,7 +25,7 @@ menu:
    音乐: /music/ || fas fa-music
    图库: /gallery/ || fas fa-images
    朋友圈: /moments/ || fas fa-palette
-   留言板: /comments/ || fas fa-comment-dots
+   留言板: /messageboard/ || fas fa-comment-dots
 
 
 
@@ -65,7 +65,7 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: https://pic.s12day.dpdns.org/favicon.ico
+favicon: /img/favicon.ico
 
 # 头像设置
 avatar:
@@ -74,36 +74,36 @@ avatar:
   # 是否启用头像旋转效果
   effect: true
 
-# 禁用所有横幅图片
+# 禁用所有横幅图片top_img
 disable_top_img: false
 
-# 如果页面未设置横幅，则显示默认的横幅图片
+# 默认的横幅，当页面的横幅 没有配置时，会显示 default_top_img
 default_top_img:
 
 # 主页的横幅图片
-index_img: https://pic.s12day.dpdns.org/2025/06/24/8d5c919c6a2576eb2b38561e228c32c8.jpg
+index_img: https://pic.s12day.dpdns.org/2025/06/24/ec7805af22a17750033a1b2485413dbb.jpg
 
 # 归档页的横幅图片
 archive_img: https://pic.s12day.dpdns.org/2025/06/24/ab1111cadcb20497355a59bfee990857.jpg
 
-# 注意: 是标签页（单个标签），不是标签页面（所有标签）
-tag_img: https://pic.s12day.dpdns.org/2025/06/24/b2f28542dc578e303fb61e5a146cab52.jpg
+# 标签子页面的默认横幅
+tag_img:
 
-# 标签页的横幅图片，可以为每个标签设置横幅图片
-# 格式:
+# 标签子页面的横幅
+# 可以为每个标签设置横幅，格式如下：
 #  - 标签名: 图片链接
 tag_per_img:
 
-# 注意: 是分类页（单个分类），不是分类页面（所有分类）
-category_img: https://pic.s12day.dpdns.org/2025/06/24/5b286f03dadbc75856b0a67a0405dc01.jpg
+# 分类子页面的默认横幅
+category_img:
 
-# 分类页的横幅图片，可以为每个分类设置横幅图片
-# 格式:
+# 分类子页面的横幅
+# 可以为每个分类设置横幅图片，格式如下：
 #  - 分类名: 图片链接
 category_per_img:
 
 # 页脚的背景图片
-footer_img: false
+footer_img: true
 
 # 网站背景
 # 可以设置为颜色或图片
@@ -116,10 +116,10 @@ cover:
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # When cover is not set, the default cover is displayed
   # 当未设置封面时，显示默认封面
   default_cover:
-    # - xxx.jpg
+    default_cover:
+#      - https://jsd.012700.xyz/gh/jerryc127/CDN@latest/cover/default_bg.png
 
 # 替换损坏的图片
 error_img:
@@ -136,58 +136,67 @@ error_404:
   subtitle: 'Page Not Found'
   background: /img/error-page.png
 
+# 文章元数据设置
 post_meta:
-  # Home Page
+  # 主页页面
   page:
-    # Choose: created / updated / both
-    date_type: created
-    # Choose: date / relative
-    date_format: date
-    categories: true
-    tags: false
-    label: true
-  post:
-    # Choose: left / center
-    position: left
-    # Choose: created / updated / both
+    # 日期类型: created / updated / both
     date_type: both
-    # Choose: date / relative
+    # 日期格式: date / relative 明确时间和相对时间
     date_format: date
+    # 是否显示分类
     categories: true
+    # 是否显示标签
+    tags: false
+    # 是否显示文字标签
+    label: true
+  #文章页面
+  post:
+    # 元数据位置: left / center
+    position: left
+    # 日期类型: created / updated / both
+    date_type: both
+    # 日期格式: date / relative
+    date_format: date
+    # 是否显示分类
+    categories: true
+    # 是否显示标签
     tags: true
+    # 是否显示文字标签
     label: true
 
 # --------------------------------------
-# Index page settings
+# 首页设置
 # --------------------------------------
 
-# The top_img settings of home page
-# default: top img - full screen, site info - middle
-# The position of site info, eg: 300px/300em/300rem/10%
+# 首页头图的设置
+# 默认: 头图全屏，站点信息在中间
+# 站点信息的位置，例如: 300px/300em/300rem/10%
 index_site_info_top:
-# The height of top_img, eg: 300px/300em/300rem
+# 头图的高度，例如: 300px/300em/300rem
 index_top_img_height:
 
-# The subtitle on homepage
+# 首页的副标题设置
 subtitle:
+  # 是否启用副标题
   enable: false
-  # Typewriter Effect
+  # 是否启用打字机效果
   effect: true
-  # Customize typed.js
+  # 自定义 typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
-  # Source - Call the third-party service API (Chinese only)
-  # It will show the source first, then show the content of sub
-  # Choose: false/1/2/3
-  # false - disable the function
+  # 来源 - 调用第三方服务 API（仅限中文）
+  # 它将首先显示来源，然后显示副标题内容
+  # 选择: false/1/2/3
+  # false - 禁用此功能
   # 1 - hitokoto.cn
-  # 2 - https://api.aa1.cn/doc/yiyan.html
+  # 2 - yijuzhan.com
   # 3 - jinrishici.com
   source: false
-  # If you close the typewriter effect, the subtitle will only show the first line of sub
+  # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
 
-# Article layout on the homepage
+# 首页文章布局
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
 # 3: Cover and info alternate between left and right

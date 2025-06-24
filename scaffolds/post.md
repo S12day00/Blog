@@ -9,7 +9,7 @@ description: #【可选】文章描述
 top: # 1 置顶
 top_img: #【可选】文章顶部图片
 comments: #【可选】显示文章评论模块(默认 true)
-cover: https://img.090227.xyz/file/ae62475a131f3734a201c.png #【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
+cover: #【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
 toc: #【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
 toc_number: #【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
 toc_style_simple: #【可选】显示 toc 简洁模式
