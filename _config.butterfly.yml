@@ -23,100 +23,116 @@ menu:
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
    音乐: /music/ || fas fa-music
-   照片: /images/ || fas fa-images
+   图库: /gallery/ || fas fa-images
    朋友圈: /moments/ || fas fa-palette
    留言板: /comments/ || fas fa-comment-dots
 
 
 
 # --------------------------------------
-# Code Blocks Settings
+# 代码块设置
 # --------------------------------------
 
 code_blocks:
-  # Code block theme: darker / pale night / light / ocean / false
+  # 代码块主题: darker / pale night / light / ocean / false
   theme: light
+  # 是否使用 Mac 风格
   macStyle: false
-  # Code block height limit (unit: px)
-  height_limit: false
+  # 代码块高度限制（单位: px）
+  height_limit: 330
+  # 是否自动换行
   word_wrap: false
 
-  # Toolbar
+  # 工具栏
+  # 是否显示复制按钮
   copy: true
+  # 是否显示语言标签
   language: true
-  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  # true: 收缩代码块 | false: 展开代码块 | none: 展开代码块并隐藏按钮
   shrink: false
+  # 是否显示全屏显示代码块按钮
   fullpage: false
 
-# Social media links
-# Formal:
-#   icon: link || the description || color
+# 社交媒体链接
+# 格式:
+#   icon: 链接 || 描述 || 颜色
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/S12day00 || Github
+  fas fa-envelope: S12day00@gmail.com || Email
 
 # --------------------------------------
-# Image Settings
+# 图片设置
 # --------------------------------------
 
-favicon: /img/favicon.png
+# 网站的 favicon 图标
+favicon: https://pic.s12day.dpdns.org/favicon.ico
 
+# 头像设置
 avatar:
-  img: /img/butterfly-icon.png
-  effect: false
+  # 头像图片链接
+  img: https://pic.s12day.dpdns.org/avatar.jpg
+  # 是否启用头像旋转效果
+  effect: true
 
-# Disable all banner images
+# 禁用所有横幅图片
 disable_top_img: false
 
-# If the banner of page not setting, it will show the default_top_img
+# 如果页面未设置横幅，则显示默认的横幅图片
 default_top_img:
 
-# The banner image of index page
-index_img:
+# 主页的横幅图片
+index_img: https://pic.s12day.dpdns.org/2025/06/24/8d5c919c6a2576eb2b38561e228c32c8.jpg
 
-# The banner image of archive page
-archive_img:
+# 归档页的横幅图片
+archive_img: https://pic.s12day.dpdns.org/2025/06/24/ab1111cadcb20497355a59bfee990857.jpg
 
-# Note: tag page, not tags page
-tag_img:
+# 注意: 是标签页（单个标签），不是标签页面（所有标签）
+tag_img: https://pic.s12day.dpdns.org/2025/06/24/b2f28542dc578e303fb61e5a146cab52.jpg
 
-# The banner image of tag page, you can set the banner image for each tag
-# Format:
-#  - tag name: xxxxx
+# 标签页的横幅图片，可以为每个标签设置横幅图片
+# 格式:
+#  - 标签名: 图片链接
 tag_per_img:
 
-# Note: category page, not categories page
-category_img:
+# 注意: 是分类页（单个分类），不是分类页面（所有分类）
+category_img: https://pic.s12day.dpdns.org/2025/06/24/5b286f03dadbc75856b0a67a0405dc01.jpg
 
-# The banner image of category page, you can set the banner image for each category
-# Format:
-#  - category name: xxxxx
+# 分类页的横幅图片，可以为每个分类设置横幅图片
+# 格式:
+#  - 分类名: 图片链接
 category_per_img:
 
-# The background image of footer
+# 页脚的背景图片
 footer_img: false
 
-# Website Background
-# Can set it to color or image url
+# 网站背景
+# 可以设置为颜色或图片
+# 图片格式: url(http://xxxxxx.com/xxx.jpg)
 background:
 
+# 封面设置
 cover:
-  # Disable the cover or not
+  # 是否禁用封面
   index_enable: true
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
+  # 当未设置封面时，显示默认封面
   default_cover:
     # - xxx.jpg
 
-# Replace Broken Images
+# 替换损坏的图片
 error_img:
+  # 友链页面的错误图片
   flink: /img/friend_404.gif
+  # 文章页面的错误图片
   post_page: /img/404.jpg
 
-# A simple 404 page
+# 简单的 404 页面
 error_404:
+  # 是否启用 404 页面
   enable: false
+  # 404 页面的副标题
   subtitle: 'Page Not Found'
   background: /img/error-page.png
 

@@ -1,6 +1,6 @@
 ---
-title: music
-top_img: https://img.090227.xyz/file/ae62475a131f3734a201c.png
+title: 音乐
+top_img: 
 date: 2025-06-24 14:21:39
 type: 'music'
 updated:

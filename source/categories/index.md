@@ -1,7 +1,16 @@
 ---
 title: 分类
-date: 2024-07-05 03:36:48
-aside: false
-top_img: false
-type: "categories"
+top_img: 
+date: 2025-06-24 18:31:53
+type: 'categories'
+updated:
+comments:
+description:
+keywords:
+mathjax:
+katex:
+aside:
+aplayer:
+highlight_shrink:
+top_single_background:
 ---
