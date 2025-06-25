@@ -235,7 +235,7 @@ toc:
   # 是否默认展开目录
   expand: false
   # 是否使用简洁风格（仅适用于文章）
-  style_simple: false
+  style_simple: true
   # 是否显示滚动进度百分比
   scroll_percent: true
 
@@ -351,7 +351,7 @@ aside:
       # 按钮图标
       icon: fab fa-telegram
       # 按钮文本
-      text: Chat with me
+      text: Chat With Me
       link: https://t.me/S12day00
   card_announcement:
     # 是否显示公告卡片
@@ -782,7 +782,7 @@ chat:
   # 聊天服务类型，可选值：chatra/tidio/crisp，如果不需要聊天功能则留空
   use:
   # 推荐使用聊天按钮，会在网站右下角创建一个按钮，并隐藏原始按钮
-  rightside_button: false
+  rightside_button: true
   # 原始聊天按钮在向上滚动时显示，向下滚动时隐藏
   button_hide_show: false
 
