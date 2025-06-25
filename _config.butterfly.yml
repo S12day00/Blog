@@ -19,12 +19,12 @@ nav:
 
 menu:
    首页: / || fas fa-home
-   时间轴: /archives/ || fas fa-book
+   文章: /archives/ || fas fa-book
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
    音乐: /music/ || fas fa-music
    图库: /gallery/ || fas fa-images
-   朋友圈: /moments/ || fas fa-palette
+   说说: /talks/ || fas fa-palette
    留言板: /messageboard/ || fas fa-comment-dots
 
 
@@ -1019,7 +1019,7 @@ activate_power_mode:
 # 参见 https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   # 是否启用 canvas_ribbon
-  enable: true
+  enable: false
   # 彩带的大小
   size: 150
   # 彩带的不透明度 (0 ~ 1)
@@ -1034,9 +1034,9 @@ canvas_ribbon:
 # 动态彩带
 canvas_fluttering_ribbon:
   # 是否启用动态彩带
-  enable: false
+  enable: true
   # 是否在移动设备上启用
-  mobile: false
+  mobile: true
 
 # 彩带特效
 # https://github.com/hustcc/canvas-nest.js
@@ -1057,11 +1057,11 @@ canvas_nest:
 # 鼠标点击效果: 烟花
 fireworks:
   # 是否启用烟花效果
-  enable: false
+  enable: true
   # 层级
   zIndex: 9999
   # 是否在移动设备上启用
-  mobile: false
+  mobile: true
 
 # 鼠标点击效果: 心形符号
 click_heart:
