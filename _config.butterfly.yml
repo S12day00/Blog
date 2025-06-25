@@ -949,7 +949,7 @@ preloader:
   # 3. 二者都启用
   source: 3
   # pace 主题 (参见 https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: /css/progress_bar.css
   # 自定加载动画义头像
   avatar: https://pic.s12day.dpdns.org/avatar.jpg
 
