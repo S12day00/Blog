@@ -17,7 +17,7 @@ copyright: #【可选】显示文章版权模块(默认为设置中 post_copyrig
 copyright_author: #【可选】文章版权模块的文章作者
 copyright_author_href: #【可选】文章版权模块的文章作者链接
 copyright_url: #【可选】文章版权模块的文章作者链接
-copyright_info: #【可选】文章版权模块的版权声明文字
+copyright_info: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 #【可选】文章版权模块的版权声明文字
 mathjax: #【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)
 katex: #【可选】显示 katex(当设置 katex 的 per_page: false 时，才需要配置，默认 false)
 aplayer: #【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
