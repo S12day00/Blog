@@ -1061,7 +1061,7 @@ fireworks:
   # 层级
   zIndex: 9999
   # 是否在移动设备上启用
-  mobile: true
+  mobile: false
 
 # 鼠标点击效果: 心形符号
 click_heart:
