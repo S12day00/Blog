@@ -1,8 +1,8 @@
 ---
-title: 留言板
+title: 壁纸
 top_img: https://bing.img.run/rand.php
-date: 2025-06-24 14:29:29
-type: 'messageboard'
+date: 2025-06-26 18:12:08
+type: 'gallery'
 updated:
 comments:
 description:
