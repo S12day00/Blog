@@ -347,7 +347,7 @@ aside:
     # 是否显示作者信息卡片
     enable: true
     # 作者描述
-    description: 这样看你，用所有的眼睛和所有的距离，就像风住了风又起
+    description:
     button:
       # 是否显示按钮
       enable: true
@@ -356,19 +356,23 @@ aside:
       # 按钮文本
       text: Chat With Me
       link: https://t.me/S12day00
+
+
   card_announcement:
     # 是否显示公告卡片
-    enable: true
+    enable: false
     # 公告内容
-    content: This is my Blog
+    content: 欢迎来到我的博客
+
   card_recent_post:
     # 是否显示最近文章卡片
     enable: true
     # 显示文章数量，0 表示显示所有
-    limit: 5
+    limit: 3
     # 排序方式：date / updated
     sort: date
     sort_order:
+
   card_newest_comments:
     # 是否显示最新评论卡片
     enable: false
@@ -379,29 +383,32 @@ aside:
     storage: 10
     # 是否显示头像
     avatar: true
+
   card_categories:
     # 是否显示分类卡片
-    enable: true
+    enable: false
     # 显示分类数量，0 表示显示所有
-    limit: 8
-    # 选择：none / true / false
+    limit: 3
+    # 是否展开分类，选择：none / true / false
     expand: none
     sort_order:
+
   card_tags:
     # 是否显示标签卡片
-    enable: true
+    enable: false
     # 显示标签数量，0 表示显示所有
-    limit: 40
+    limit: 6
     # 是否启用颜色
-    color: false
+    color: true
     # 标签排序方式：random/name/length
     orderby: random
     # 排序顺序：1 表示升序，-1 表示降序
     order: 1
     sort_order:
+
   card_archives:
     # 是否显示归档卡片
-    enable: true
+    enable: false
     # 归档类型：monthly / yearly
     type: monthly
     # 日期格式，例如：YYYY年MM月
@@ -411,6 +418,7 @@ aside:
     # 显示归档数量，0 表示显示所有
     limit: 8
     sort_order:
+
 card_post_series:
   # 是否显示系列文章卡片
   enable: true
@@ -419,7 +427,8 @@ card_post_series:
   # 排序方式：title 或 date
   orderBy: 'date'
   # 排序顺序：1 表示升序，-1 表示降序
-  order: -1
+  order: 1
+
   card_webinfo:
     # 是否显示网站信息卡片
     enable: true
@@ -431,7 +440,7 @@ card_post_series:
     # 发布日期与当前日期的时间差
     # 格式：Month/Day/Year Time 或 Year/Month/Day Time
     # 如果不启用此功能，请留空
-    runtime_date: Year/Month/Day Time
+    runtime_date: 2025/06/23 00:00:00
 
 # --------------------------------------
 # 右下角按钮设置
@@ -443,7 +452,7 @@ rightside_bottom:
 # 简繁转换设置
 translate:
   # 是否启用简繁转换
-  enable: false
+  enable: true
   # 按钮文本
   default: 繁
   # 网站语言（1 - 繁体中文 / 2 - 简体中文）
