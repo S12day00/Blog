@@ -13,7 +13,4 @@ aside: #【可选】显示侧边栏 (默认 true)
 aplayer: #【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
 highlight_shrink: #【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
 random: #【可选】配置友情链接是否随机排序（默认为 false）
-limit: #【可选】配置说说显示数量
-  type: #【可选】配置说说显示数量的类型 （date 或者 num）
-  value: #【可选】配置说说显示数量的值 （当 type 配置为 date 时， value 的值必须为日期。当 type 配置为 num 时， value 的值必须为数字，且大于 0
 ---
