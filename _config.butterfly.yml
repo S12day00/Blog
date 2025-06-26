@@ -83,13 +83,13 @@ disable_top_img: false
 default_top_img:
 
 # 主页的横幅图片
-index_img: https://pic.s12day.dpdns.org/2025/06/24/ec7805af22a17750033a1b2485413dbb.jpg
+index_img: https://bing.img.run/1920x1080.php
 
 # 归档页的横幅图片
-archive_img: https://pic.s12day.dpdns.org/2025/06/24/ab1111cadcb20497355a59bfee990857.jpg
+archive_img: https://bing.img.run/rand.php
 
 # 标签子页面的默认横幅
-tag_img:
+tag_img: https://bing.img.run/rand.php
 
 # 标签子页面的横幅
 # 可以为每个标签设置横幅，格式如下：
@@ -97,7 +97,7 @@ tag_img:
 tag_per_img:
 
 # 分类子页面的默认横幅
-category_img:
+category_img: https://bing.img.run/rand.php
 
 # 分类子页面的横幅
 # 可以为每个分类设置横幅图片，格式如下：
@@ -120,7 +120,8 @@ cover:
   archives_enable: true
   # 当未设置封面时，显示默认封面，当配置多张图片时,会随机选择一张作为 cover
   default_cover:
-    - https://jsd.012700.xyz/gh/jerryc127/CDN@latest/cover/default_bg.png
+    - https://bing.img.run/rand.php
+#    - https://jsd.012700.xyz/gh/jerryc127/CDN@latest/cover/default_bg.png
 
 # 替换损坏的图片
 error_img:
@@ -571,11 +572,11 @@ search:
   # 本地搜索
   local_search:
     # 页面加载时预加载搜索数据
-    preload: false
+    preload: true
     # 匹配的文章结果，默认显示最开始的 1 段结果，设置为 -1 显示所有结果
     top_n_per_article: -1
     # 将 HTML 字符串反转义为可读内容
-    unescape: false
+    unescape: true
     # 搜索文件的CDN地址（默认使用的本地链接）
     CDN:
 
@@ -1008,7 +1009,7 @@ activate_power_mode:
   # 是否启用彩色效果
   colorful: true
   # 是否启用震动效果
-  shake: true
+  shake: false
   # 是否在移动设备上启用
   mobile: true
 
@@ -1057,7 +1058,7 @@ canvas_nest:
 # 鼠标点击效果: 烟花
 fireworks:
   # 是否启用烟花效果
-  enable: true
+  enable: false
   # 层级
   zIndex: 9999
   # 是否在移动设备上启用
