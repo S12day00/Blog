@@ -440,7 +440,7 @@ card_post_series:
     # 发布日期与当前日期的时间差
     # 格式：Month/Day/Year Time 或 Year/Month/Day Time
     # 如果不启用此功能，请留空
-    runtime_date: 2025/06/23 00:00
+    runtime_date: 6/23/2025 00:00:00
 
 # --------------------------------------
 # 右下角按钮设置
@@ -454,9 +454,9 @@ translate:
   # 是否启用简繁转换
   enable: true
   # 按钮文本
-  default: 繁
+  default: 簡
   # 网站语言（1 - 繁体中文 / 2 - 简体中文）
-  defaultEncoding: 2
+  defaultEncoding: 1
   # 转换延迟
   translateDelay: 0
   # 按钮在简体中文时的文本
