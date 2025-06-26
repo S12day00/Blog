@@ -1020,7 +1020,7 @@ activate_power_mode:
 # 参见 https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   # 是否启用 canvas_ribbon
-  enable: false
+  enable: true
   # 彩带的大小
   size: 150
   # 彩带的不透明度 (0 ~ 1)
@@ -1030,12 +1030,12 @@ canvas_ribbon:
   # 是否点击更改颜色
   click_to_change: true
   # 是否在移动设备上启用
-  mobile: false
+  mobile: true
 
 # 动态彩带
 canvas_fluttering_ribbon:
   # 是否启用动态彩带
-  enable: true
+  enable: false
   # 是否在移动设备上启用
   mobile: true
 
