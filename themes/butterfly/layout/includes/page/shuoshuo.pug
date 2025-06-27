@@ -101,20 +101,6 @@
                 const commentContainer = item.key
                   ? `<div class="shuoshuo-comment no-comment" data-key="${item.key}"></div>`
                   : ''
-                // 新增部分？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
-                let imagesHTML = ''
-                if (Array.isArray(item.image)) {
-                  imagesHTML = `
-                    <div class="bber-container-img">
-                      ${item.image.map(src => `
-                        <a class="bber-content-img" href="${src}" target="_blank" data-fancybox="gallery" data-caption="">
-                          <img src="${src}"/>
-                        </a>
-                      `).join('')}
-                    </div>
-                  `
-                }
-                // 新增部分？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
 
                 return `
                   <div class="shuoshuo-item">
@@ -130,14 +116,7 @@
                           </time>
                         </div>
                       </div>
-                      // ？？？？？？？？？？？？？？？？？？？？？？
-                      <div class="shuoshuo-content">
-                        <div class="bber-content">
-                          <p class="datacont">${item.content}</p>
-                          ${imagesHTML}
-                        </div>
-                      </div>
-                      // ？？？？？？？？？？？？？？？？？？？？？
+                      <div class="shuoshuo-content">${item.content}</div>
                       <div class="shuoshuo-footer ${tags ? 'flex-between' : 'flex-end'}">
                         ${tags ? `<div class="shuoshuo-tags">${tags}</div>` : ''}
                         ${commentButton}

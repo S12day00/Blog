@@ -997,7 +997,7 @@ font:
 # 如不需要使用网络字体，只需要把 font_link 留空就行
 # 左上角网站名字 主页居中网站名字
 blog_title_font:
-  # 网络字体的连结
+  # 网络字体的链接
   font_link:
   #网站标题字体
   font_family:
