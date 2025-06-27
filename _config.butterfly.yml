@@ -421,7 +421,7 @@ aside:
 
 card_post_series:
   # 是否显示系列文章卡片
-  enable: false
+  enable: true
   # 标题显示系列名称
   series_title: false
   # 排序方式：title 或 date
@@ -477,7 +477,7 @@ darkmode:
   # autoChangeMode: 1  跟随系统设置，如果系统不支持暗黑模式，则在晚上 6 点到早上 6 点之间切换暗黑模式
   # autoChangeMode: 2  在晚上 6 点到早上 6 点之间切换暗黑模式
   # autoChangeMode: false  不自动切换
-  autoChangeMode: 2
+  autoChangeMode: false
   # 设置明亮模式时间，值在 0 到 24 之间。如果未设置，默认值为 6 和 18
   start:
   end:
@@ -967,7 +967,7 @@ preloader:
 enter_transitions: true
 
 # 默认显示模式 - light (默认) / dark
-display_mode: light
+display_mode: dark
 
 # 美化文章内容的配置
 beautify:
