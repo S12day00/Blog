@@ -1037,7 +1037,7 @@ canvas_ribbon:
   # 层级
   zIndex: -1
   # 是否点击更改颜色
-  click_to_change: true
+  click_to_change: false
   # 是否在移动设备上启用
   mobile: true
 
