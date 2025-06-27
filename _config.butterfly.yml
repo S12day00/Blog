@@ -1270,10 +1270,14 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    - <link rel="stylesheet" href="/css/post_top_wave.css">
+    # 波浪效果
+    - <link rel="stylesheet" href="/css/top_wave.css">
+    # 侧边个人信息卡片：头像状态，悬停彩带
     - <link rel="stylesheet" href="/css/custom.css">
+    # 星空背景流星特效
     - <link rel="stylesheet" href="/css/universe.css">
   bottom:
+    # 星空背景流星特效
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
 
