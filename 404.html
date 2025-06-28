@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-TW" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>就像風住了風又起 | 就像風住了風又起</title><meta name="author" content="就像風住了風又起"><meta name="copyright" content="就像風住了風又起"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="這樣看你，用所有的眼睛和所有的距離，就像風住了風又起">
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>就像風住了風又起 | 就像風住了風又起</title><meta name="author" content="就像風住了風又起"><meta name="copyright" content="就像風住了風又起"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="這樣看你，用所有的眼睛和所有的距離，就像風住了風又起">
 <meta property="og:type" content="website">
 <meta property="og:title" content="就像風住了風又起">
 <meta property="og:url" content="http://blog.s12day.dpdns.org/404.html">
@@ -82,7 +82,10 @@
 
       const theme = saveToLocal.get('theme')
     
-          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 20
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
         
       
       const asideStatus = saveToLocal.get('aside-status')
