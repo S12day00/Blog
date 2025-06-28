@@ -14,5 +14,7 @@ aplayer:
 highlight_shrink:
 random:
 ---
-<div id="qexot"></div>
+
+[//]: # (<div id="qexot"></div>)
+<div id="qexot" class="tag-plugin timeline"></div>
 <script>showQexoTalks("qexot", "https://qexo.s12day.dpdns.org", 5)</script>

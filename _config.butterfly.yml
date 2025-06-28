@@ -199,7 +199,7 @@ subtitle:
   source: 3
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
-    - 山河雖無恙，吾輩當自强。
+    - 山河虽无恙，吾辈当自强。
 
 # 首页文章布局
 # 1: 封面在左，信息在右
@@ -236,7 +236,7 @@ toc:
   # 是否默认展开目录
   expand: false
   # 是否使用简洁风格（仅适用于文章）
-  style_simple: true
+  style_simple: false
   # 是否显示滚动进度百分比
   scroll_percent: true
 
@@ -335,7 +335,7 @@ aside:
   # 移动设备上是否启用侧边栏
   mobile: true
   # 侧边栏位置：left / right
-  position: right
+  position: left
   display:
     # 归档页面是否显示侧边栏
     archive: true
@@ -356,14 +356,11 @@ aside:
       # 按钮文本
       text: Chat With Me
       link: https://t.me/S12day00
-
-
   card_announcement:
     # 是否显示公告卡片
     enable: false
     # 公告内容
     content: 欢迎来到我的博客
-
   card_recent_post:
     # 是否显示最近文章卡片
     enable: true
@@ -372,30 +369,27 @@ aside:
     # 排序方式：date / updated
     sort: date
     sort_order:
-
   card_newest_comments:
     # 是否显示最新评论卡片
-    enable: false
-    sort_order:
+    enable: true
     # 显示评论数量
-    limit: 6
+    limit: 5
     # 单位：分钟，保存数据到 localStorage
     storage: 10
     # 是否显示头像
     avatar: true
-
+    sort_order:
   card_categories:
     # 是否显示分类卡片
-    enable: true
+    enable: false
     # 显示分类数量，0 表示显示所有
     limit: 3
     # 是否展开分类，选择：none / true / false
     expand: none
     sort_order:
-
   card_tags:
     # 是否显示标签卡片
-    enable: true
+    enable: false
     # 显示标签数量，0 表示显示所有
     limit: 6
     # 是否启用颜色
@@ -405,7 +399,6 @@ aside:
     # 排序顺序：1 表示升序，-1 表示降序
     order: 1
     sort_order:
-
   card_archives:
     # 是否显示归档卡片
     enable: false
@@ -418,20 +411,18 @@ aside:
     # 显示归档数量，0 表示显示所有
     limit: 8
     sort_order:
-
-card_post_series:
-  # 是否显示系列文章卡片
-  enable: true
-  # 标题显示系列名称
-  series_title: false
-  # 排序方式：title 或 date
-  orderBy: 'date'
-  # 排序顺序：1 表示升序，-1 表示降序
-  order: 1
-
+  card_post_series:
+    # 是否显示系列文章卡片
+    enable: true
+    # 标题显示系列名称
+    series_title: false
+    # 排序方式：title 或 date
+    orderBy: 'date'
+    # 排序顺序：1 表示升序，-1 表示降序
+    order: 1
   card_webinfo:
     # 是否显示网站信息卡片
-    enable: false
+    enable: true
     # 是否显示文章数量
     post_count: true
     # 是否显示最后推送日期
@@ -440,7 +431,7 @@ card_post_series:
     # 发布日期与当前日期的时间差
     # 格式：Month/Day/Year Time 或 Year/Month/Day Time
     # 如果不启用此功能，请留空
-    runtime_date: 2025-06-23 00:00:00
+    runtime_date: 2025/06/23 00:00:00
 
 # --------------------------------------
 # 右下角按钮设置
@@ -1029,7 +1020,7 @@ activate_power_mode:
 # 参见 https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   # 是否启用 canvas_ribbon
-  enable: false
+  enable: true
   # 彩带的大小
   size: 150
   # 彩带的不透明度 (0 ~ 1)
@@ -1067,11 +1058,11 @@ canvas_nest:
 # 鼠标点击效果: 烟花
 fireworks:
   # 是否启用烟花效果
-  enable: false
+  enable: true
   # 层级
   zIndex: 9999
   # 是否在移动设备上启用
-  mobile: false
+  mobile: true
 
 # 鼠标点击效果: 心形符号
 click_heart:
@@ -1186,7 +1177,7 @@ note:
 # https://github.com/MoOx/pjax
 pjax:
   # 是否启用 pjax
-  enable: true
+  enable: false
   # 排除指定页面不使用 pjax，如 '/music/'
   exclude:
     # - /xxxxxx/
@@ -1276,12 +1267,17 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     # 星空背景流星特效
     - <link rel="stylesheet" href="/css/universe.css">
-    - <link rel="stylesheet" href="/talks.css">
+    # 说说（叨叨）
+#    - <link rel="stylesheet" href="/talks.css">
+    - <link rel="stylesheet" href="/qexo_talk.css">
   bottom:
-    - <script src="/talks.js"></script>
     # 星空背景流星特效
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
+    # 说说
+#    - <script src="/qexo_talks.js"></script>
+
+    - <script src="/qexo_talk.js"></script>
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
