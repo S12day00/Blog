@@ -22,7 +22,7 @@ menu:
    文章: /archives/ || fas fa-book
    標簽: /tags/ || fas fa-tags
    分類: /categories/ || fas fa-folder-open
-   音樂: /music/ || fas fa-music
+   樂舘: /music/ || fas fa-music
    相冊: /Gallery/ || fas fa-images
    説説: /shuoshuo/ || fas fa-palette
    留言板: /messageboard/ || fas fa-comment-dots
@@ -1266,8 +1266,6 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     # 星空背景流星特效
     - <link rel="stylesheet" href="/css/universe.css">
-    # 说说（叨叨）
-    - <script src="/js/qexo-dao.js"></script>
   bottom:
     # 星空背景流星特效
     - <canvas id="universe"></canvas>

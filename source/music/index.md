@@ -1,5 +1,5 @@
 ---
-title: 音樂
+title: 樂舘
 top_img:
 date: 2025-06-24 14:21:39
 type: 'music'
