@@ -23,7 +23,7 @@ menu:
    標簽: /tags/ || fas fa-tags
    分類: /categories/ || fas fa-folder-open
    音樂: /music/ || fas fa-music
-   圖庫: /Gallery/ || fas fa-images
+   相册: /Gallery/ || fas fa-images
    説説: /talks/ || fas fa-palette
    留言板: /messageboard/ || fas fa-comment-dots
 
@@ -72,7 +72,7 @@ favicon: /img/favicon.ico
 # 头像设置
 avatar:
   # 头像图片链接
-  img: https://pic.s12day.dpdns.org/avatar.jpg
+  img: /img/avatar.jpg
   # 是否启用头像旋转效果
   effect: false
 
@@ -83,7 +83,7 @@ disable_top_img: false
 default_top_img:
 
 # 主页的横幅图片
-index_img: https://bing.img.run/1920x1080.php
+index_img: https://bing.img.run/rand.php
 
 # 归档页的横幅图片
 archive_img: https://bing.img.run/rand.php
@@ -120,7 +120,6 @@ cover:
   archives_enable: true
   # 当未设置封面时，显示默认封面，当配置多张图片时,会随机选择一张作为 cover
   default_cover:
-    - https://bing.img.run/rand.php
 #    - https://jsd.012700.xyz/gh/jerryc127/CDN@latest/cover/default_bg.png
 
 # 替换损坏的图片
@@ -952,7 +951,7 @@ preloader:
   # pace 主题 (参见 https://codebyzach.github.io/pace/)
   pace_css_url: /css/progress_bar.css
   # 自定加载动画义头像
-  avatar: https://pic.s12day.dpdns.org/avatar.jpg
+  avatar: /img/avatar.jpg
 
 # 页面过渡效果
 enter_transitions: true
