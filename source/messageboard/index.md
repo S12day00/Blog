@@ -1,6 +1,6 @@
 ---
 title: 留言板
-top_img: https://bing.img.run/rand.php
+top_img:
 date: 2025-06-24 14:29:29
 type: 'messageboard'
 updated:

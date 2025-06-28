@@ -1,6 +1,6 @@
 ---
-title: 图库
-top_img: https://bing.img.run/rand.php
+title: 相冊
+top_img:
 date: 2025-06-24 19:28:00
 type: 'galleryGroup'
 updated:

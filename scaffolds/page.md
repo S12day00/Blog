@@ -1,6 +1,6 @@
 ---
 title: {{ title }} #【必需】页面标题
-top_img: https://bing.img.run/rand.php #【可选】页面顶部图片
+top_img: #【可选】页面顶部图片
 date: {{ date }} #【必需】页面创建日期
 type: #【必需】标签、分类、音乐、图库、说说等页面需要配置
 updated: #【可选】页面更新日期

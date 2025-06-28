@@ -1,28 +1,13 @@
 #author 和 avatar可省略，会自动去获取配置文件中的 author 和 avatar
 - author:
   avatar:
-  date: 2024-06-21 23:33:26
-  key: key-1
+  date: 2025-06-28 22:25:30
+  key: 20250628
   content: |
-    This is a sample content for **Author 1**.
-    ![Sample Image](https://pic.s12day.dpdns.org/avatar.jpg)
+    説説，記錄“美好”生活，真諷刺😅
+    沒有注釋的代碼，缺三少四的文檔
+    爲了搞這個破東西，渾身不舒服
+    然後現在還一堆問題，界面也不好看
+    爺真的累了啊啊啊啊😭😭😭😭
   tags:
-    - tags1
-    - tags2
-- author:
-  avatar:
-  date: 2024-06-20 23:33:26
-  key: key-2
-  content: |
-    This is a sample content for **Author 2**.
-    ![Sample Image](https://via.placeholder.com/150)
-  tags:
-    - tag1
-    - tag3
-
-- author:
-  avatar:
-  date: 2024-06-19 23:33:26
-  key: key-3
-  content: |
-    This is a sample content for **Author 3**.
+    - 心情
