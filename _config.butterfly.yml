@@ -1186,7 +1186,7 @@ note:
 # https://github.com/MoOx/pjax
 pjax:
   # 是否启用 pjax
-  enable: false
+  enable: true
   # 排除指定页面不使用 pjax，如 '/music/'
   exclude:
     # - /xxxxxx/
@@ -1276,7 +1276,9 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     # 星空背景流星特效
     - <link rel="stylesheet" href="/css/universe.css">
+    - <link rel="stylesheet" href="/talks.css">
   bottom:
+    - <script src="/talks.js"></script>
     # 星空背景流星特效
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
