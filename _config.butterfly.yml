@@ -57,7 +57,7 @@ code_blocks:
 # 格式:
 #   icon: 链接 || 描述 || 颜色
 social:
-  fas fa-envelope: S12day00@gmail.com || Email
+  fas fa-envelope: mailto:S12day00@gmail.com || Email
   fab fa-youtube: https://youtube.com/@s12day00 || YouTube
   fab fa-tiktok: https://www.douyin.com/user/MS4wLjABAAAAm8WROS3_dcLnU-eyXB_dKN3RK9zLPtICaa7buWEhc_s || 抖音
   fab fa-github: https://github.com/S12day00 || Github
@@ -1268,16 +1268,11 @@ inject:
     # 星空背景流星特效
     - <link rel="stylesheet" href="/css/universe.css">
     # 说说（叨叨）
-#    - <link rel="stylesheet" href="/talks.css">
-    - <link rel="stylesheet" href="/qexo_talk.css">
+    - <script src="/js/qexo-dao.js"></script>
   bottom:
     # 星空背景流星特效
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
-    # 说说
-#    - <script src="/qexo_talks.js"></script>
-
-    - <script src="/qexo_talk.js"></script>
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
