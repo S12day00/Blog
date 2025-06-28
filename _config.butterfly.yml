@@ -23,7 +23,7 @@ menu:
    標簽: /tags/ || fas fa-tags
    分類: /categories/ || fas fa-folder-open
    音樂: /music/ || fas fa-music
-   相册: /Gallery/ || fas fa-images
+   相冊: /Gallery/ || fas fa-images
    説説: /talks/ || fas fa-palette
    留言板: /messageboard/ || fas fa-comment-dots
 
@@ -80,16 +80,16 @@ avatar:
 disable_top_img: false
 
 # 默认的横幅，当页面的横幅 没有配置时，会显示 default_top_img
-default_top_img:
+default_top_img: https://bing.img.run/rand.php
 
 # 主页的横幅图片
-index_img: https://bing.img.run/rand.php
+index_img:
 
 # 归档页的横幅图片
-archive_img: https://bing.img.run/rand.php
+archive_img:
 
 # 标签子页面的默认横幅
-tag_img: https://bing.img.run/rand.php
+tag_img:
 
 # 标签子页面的横幅
 # 可以为每个标签设置横幅，格式如下：
@@ -97,7 +97,7 @@ tag_img: https://bing.img.run/rand.php
 tag_per_img:
 
 # 分类子页面的默认横幅
-category_img: https://bing.img.run/rand.php
+category_img:
 
 # 分类子页面的横幅
 # 可以为每个分类设置横幅图片，格式如下：
