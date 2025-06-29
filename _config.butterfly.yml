@@ -469,7 +469,7 @@ darkmode:
   autoChangeMode: 2
   # 设置明亮模式时间，值在 0 到 24 之间。如果未设置，默认值为 6 和 18
   start: 6
-  end: 20
+  end: 19
 
 # 在返回顶部按钮中显示滚动百分比
 rightside_scroll_percent: true
@@ -619,7 +619,7 @@ comments:
   # 如果不需要评论功能，保持为空
   # 选择: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 两个评论系统的格式 : Disqus,Waline
-  use:
+  use: Giscus
   # 按钮旁边显示评论系统名称
   text: true
   # 懒加载: 开启后，只有滚动到评论位置时才会加载评论所需要的资源
@@ -742,11 +742,11 @@ twikoo:
 # 官方文档：https://giscus.app/
 giscus:
   # 仓库地址
-  repo:
+  repo: S12day00/Comments
   # 仓库 ID
-  repo_id:
+  repo_id: R_kgDOPDv0QQ
   # 分类 ID
-  category_id:
+  category_id: DIC_kwDOPDv0Qc4CsMiC
   # 主题配置，light为浅色主题，duck为深色主题
   light_theme: light
   dark_theme: dark
