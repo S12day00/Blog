@@ -1225,7 +1225,7 @@ pwa:
   # PWA manifest 文件路径
   manifest: /manifest.json
   # Apple Touch 图标路径
-  apple_touch_icon: /img/pwa/apple-touch-icon.png
+  apple_touch_icon: /img/pwa/1.png
   # 32x32 像素的 favicon 图标路径
   favicon_32_32: /img/pwa/32.png
   # 16x16 像素的 favicon 图标路径
