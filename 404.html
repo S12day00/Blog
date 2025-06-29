@@ -83,7 +83,7 @@
       const theme = saveToLocal.get('theme')
     
           const hour = new Date().getHours()
-          const isNight = hour <= 6 || hour >= 20
+          const isNight = hour <= 6 || hour >= 19
           if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
           else theme === 'light' ? activateLightMode() : activateDarkMode()
         
@@ -233,7 +233,7 @@ document.body.addEventListener('input', POWERMODE);
   btf.addGlobalFn('pjaxSend', destroyAplayer, 'destroyAplayer')
   btf.addGlobalFn('pjaxComplete', loadMeting, 'runMetingJS')
 })()</script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>(() => {
-  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+  const pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:description\"]","link[rel=\"canonical\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
   window.pjax = new Pjax({
     elements: 'a:not([target="_blank"])',
