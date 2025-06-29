@@ -12,7 +12,7 @@ module.exports = {
         // CDNs - should be CacheFirst, since they should be used specific versions so should not change
         {
             // urlPattern: /^https:\/\/cdn\.example\.com\/.*/, // 可替換成你的 URL
-            // handler: 'CacheFirst'
+            handler: 'CacheFirst'
         }
     ]
 }
