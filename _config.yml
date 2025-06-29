@@ -13,7 +13,7 @@ timezone: '' #时区，默认设备时区
 
 # URL
 # 网址, 必须以 http:// 或 https:// 开头
-url: http://blog.s12day.dpdns.org
+url: https://blog.s12day.dpdns.org
 # 文章的永久链接格式
 permalink: :year/:month/:day/:title/
 # 永久链接中各部分的默认值
