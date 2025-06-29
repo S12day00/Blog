@@ -22,7 +22,6 @@ menu:
    文章: /archives/ || fas fa-book
    標簽: /tags/ || fas fa-tags
    分類: /categories/ || fas fa-folder-open
-   樂舘: /music/ || fas fa-music
    相冊: /Gallery/ || fas fa-images
    説説: /shuoshuo/ || fas fa-palette
    留言板: /messageboard/ || fas fa-comment-dots
@@ -1270,7 +1269,8 @@ inject:
     # 星空背景流星特效
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
-    - <div class="aplayer no-destroy" data-id="9526984778" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
+    # aplayer
+    - <div class="aplayer no-destroy" data-id="9526984778" data-server="tencent" data-type="playlist" data-min="true" data-listfolded="false" data-autoplay="true" data-theme="##2980b9"> </div>
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
