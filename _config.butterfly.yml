@@ -1176,7 +1176,7 @@ note:
 # https://github.com/MoOx/pjax
 pjax:
   # 是否启用 pjax
-  enable: false
+  enable: true
   # 排除指定页面不使用 pjax，如 '/music/'
   exclude:
     # - /xxxxxx/
@@ -1184,7 +1184,7 @@ pjax:
 # 注入 CSS 和脚本 (aplayer/meting)
 aplayerInject:
   # 是否启用注入
-  enable: false
+  enable: true
   # 是否每页启用
   per_page: true
 
@@ -1270,6 +1270,7 @@ inject:
     # 星空背景流星特效
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
+    - <div class="aplayer no-destroy" data-id="9526984778" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置

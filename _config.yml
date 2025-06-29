@@ -123,7 +123,9 @@ ignore:
 
 # 拓展
 # 插件: https://hexo.io/plugins/
-
+aplayer:
+  meting: true
+  asset_inject: false
 
 # 主题: https://hexo.io/themes/
 theme: butterfly
