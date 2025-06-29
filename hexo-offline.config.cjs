@@ -7,12 +7,12 @@ module.exports = {
     maximumFileSizeToCacheInBytes: 10485760, // 緩存的最大文件大小，以字節為單位。
     skipWaiting: true,
     clientsClaim: true,
-    runtimeCaching: [
-        // 如果你需要加載 CDN 資源，請配置該選項，如果沒有，可以不配置。
-        // CDNs - should be CacheFirst, since they should be used specific versions so should not change
-        {
-            // urlPattern: /^https:\/\/cdn\.example\.com\/.*/, // 可替換成你的 URL
-            handler: 'CacheFirst'
-        }
-    ]
+    // runtimeCaching: [
+    //     // 如果你需要加載 CDN 資源，請配置該選項，如果沒有，可以不配置。
+    //     // CDNs - should be CacheFirst, since they should be used specific versions so should not change
+    //     {
+    //         urlPattern: /^https:\/\/cdn\.example\.com\/.*/, // 可替換成你的 URL
+    //         handler: 'CacheFirst'
+    //     }
+    // ]
 }
