@@ -18,12 +18,12 @@ nav:
   fixed: false
 
 menu:
-   首頁: / || fas fa-home
+   首页: / || fas fa-home
    文章: /archives/ || fas fa-book
-   標簽: /tags/ || fas fa-tags
-   分類: /categories/ || fas fa-folder-open
-   相冊: /Gallery/ || fas fa-images
-   説説: /shuoshuo/ || fas fa-palette
+   标签: /tags/ || fas fa-tags
+   分类: /categories/ || fas fa-folder-open
+   相册: /Gallery/ || fas fa-images
+   说说: /shuoshuo/ || fas fa-palette
    留言板: /messageboard/ || fas fa-comment-dots
 
 
@@ -443,9 +443,9 @@ translate:
   # 是否启用简繁转换
   enable: true
   # 按钮文本
-  default: 簡
+  default: 繁
   # 网站语言（1 - 繁体中文 / 2 - 简体中文）
-  defaultEncoding: 1
+  defaultEncoding: 2
   # 转换延迟
   translateDelay: 0
   # 按钮在简体中文时的文本
