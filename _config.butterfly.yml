@@ -1227,9 +1227,9 @@ pwa:
   # Apple Touch 图标路径
   apple_touch_icon: /img/pwa/apple-touch-icon.png
   # 32x32 像素的 favicon 图标路径
-  favicon_32_32: /img/pwa/32.ico
+  favicon_32_32: /img/pwa/32.png
   # 16x16 像素的 favicon 图标路径
-  favicon_16_16: /img/pwa/16.ico
+  favicon_16_16: /img/pwa/16.png
   # mask 图标路径
   mask_icon: /img/pwa/safari-pinned-tab.svg
 
