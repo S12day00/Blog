@@ -4,7 +4,7 @@ top_img:
 date: 2025-06-24 19:28:00
 type: 'galleryGroup'
 updated:
-comments:
+comments: false
 description:
 keywords:
 mathjax:

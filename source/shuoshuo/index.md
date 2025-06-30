@@ -4,7 +4,7 @@ top_img:
 date: 2025-06-24 14:29:14
 type: 'shuoshuo'
 updated:
-comments:
+comments: true
 description:
 keywords:
 mathjax:

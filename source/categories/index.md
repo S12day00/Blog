@@ -4,7 +4,7 @@ top_img:
 date: 2025-06-24 18:31:53
 type: 'categories'
 updated:
-comments:
+comments: false
 description:
 keywords:
 mathjax:
