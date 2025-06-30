@@ -261,10 +261,10 @@ reward:
   text:
   # 二维码，link 可以不写，会默认为图片的链接。
   QR_code:
-    - img: /img/wechat.jpg
+    - img: /img/reward/wechat.jpg
       link:
       text: 微信
-    - img: /img/alipay.jpg
+    - img: /img/reward/alipay.jpg
       link:
       text: 支付宝
 
